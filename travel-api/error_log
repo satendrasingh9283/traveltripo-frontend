@@ -1,0 +1,1 @@
+[23-Feb-2026 17:27:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'creativemindx-9283'@'localhost' (using password: YES) in /home/traveltr/public_html/travel-api/city_list.php on line 20

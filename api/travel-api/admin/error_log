@@ -1,0 +1,9 @@
+[09-Dec-2025 06:29:14 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'trivaletripo9283'@'localhost' (using password: YES) in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/property_listing.php on line 23
+[09-Dec-2025 06:54:12 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40
+[11-Dec-2025 17:34:31 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:35:59 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:36:08 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:36:24 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:37:03 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 23:39:15 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40
+[11-Dec-2025 23:40:42 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40

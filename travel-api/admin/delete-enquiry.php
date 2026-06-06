@@ -1,0 +1,58 @@
+<?php
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Database connection details
+$databaseHost = 'localhost';
+$databaseName = 'creativemindx';
+$databaseUsername = 'creativemindx-9283';
+$databasePassword = 'CLYCtCyno.ht';
+
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: DELETE");
+header("Access-Control-Allow-Headers: Content-Type");
+
+// Establish database connection
+$con = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
+
+// Check connection
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());  // Output connection error
+}
+// Set the content type to JSON for the response
+header('Content-Type: application/json');
+
+// Check if the 'id' parameter is present
+if (isset($_POST['id'])) {
+    $id = $_POST['id'];
+
+    // Prepare and execute the DELETE query
+    $sql = "DELETE FROM enquiry WHERE id = ?";
+    $stmt = $con->prepare($sql);
+    $stmt->bind_param("i", $id); // 'i' means the parameter is an integer
+
+    if ($stmt->execute()) {
+        // Check if any row was affected
+        if ($stmt->affected_rows > 0) {
+            // Return success response
+            echo json_encode(["status" => "success", "message" => "Record deleted successfully."]);
+        } else {
+            // If no row was affected, maybe the ID does not exist
+            echo json_encode(["status" => "error", "message" => "No record found with the given ID."]);
+        }
+    } else {
+        // Return failure response
+        echo json_encode(["status" => "error", "message" => "Failed to delete the record."]);
+    }
+
+    // Close the prepared statement
+    $stmt->close();
+} else {
+    // Return error if 'id' is missing
+    echo json_encode(["status" => "error", "message" => "Missing 'id' parameter."]);
+}
+
+// Close the database connection
+$con->close();
+?>

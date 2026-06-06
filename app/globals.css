@@ -1,0 +1,503 @@
+@import "tailwindcss";
+
+:root {
+  --background: #e8e8e880;
+  --foreground: #171717;
+  overflow-x: hidden;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #e8e8e880;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Hanken Grotesk", sans-serif !important;
+  overflow-x: hidden !important;
+}
+.btn-primary1 {
+  color: #fff !important;
+  background-color: #fe3434 !important;
+  border-color: #fe3434 !important;
+  border-radius: 0 !important;
+  height: 48px;
+  background-image: linear-gradient(#F44336, #d23024) !important;
+}
+
+.common-banner img{
+  margin-bottom: 50px;
+}
+input:hover {
+  border: 1px solid #202020;
+  outline: none;
+}
+.autoScoll{
+  overflow-y: auto;
+  max-height: 350px;
+}
+.cardBorder{
+  border: 1px solid #d5d5d5 !important;
+  padding: 20px;
+  border-radius: 15px;
+}
+.commonHeading {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.commonHeading::before,
+.commonHeading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;          /* line length */
+  height: 2px;          /* line thickness */
+  background-color: #333; /* line color */
+  transform: translateY(-50%);
+}
+
+.commonHeading::before {
+  left: -70px;          /* space from text */
+}
+
+.commonHeading::after {
+  right: -70px;
+}
+.px-0{
+  padding: 0 !important;
+}
+.mb-40{
+  margin-bottom: 50px;
+}
+/* common form */
+.booking-form .form-group{
+	margin-bottom:25px;
+  margin-top: 20px;
+}
+
+.booking-form .form-group:last-child{
+	margin-bottom:0px;
+}
+.booking-form {
+  border: 1px solid #ddd !important;
+}
+.booking-form .form-group input[type="text"],
+.booking-form .form-group input[type="password"],
+.booking-form .form-group input[type="tel"],
+.booking-form .form-group input[type="email"],
+.booking-form .form-group select{
+	position:relative;
+	display:block;
+	width:100%;
+	line-height:28px;
+	padding:10px 25px;
+	height:60px;
+	border-radius:0px;
+	font-size:16px;
+	color:#444444;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+	background-color:#ffffff;
+	border:1px solid #e5e5e5;
+}
+
+.booking-form .form-group textarea::-webkit-input-placeholder,
+.booking-form .form-group input::-webkit-input-placeholder{
+	color:var(--color-twentyone);
+}
+
+.booking-form .form-group input{
+	border-color:#e5e5e5;
+  	border:1px solid #e5e5e5;
+}
+
+.booking-form .form-group textarea{
+	position:relative;
+	display:block;
+	width:100%;
+	line-height:24px;
+	padding:15px 25px 25px;
+	font-size:16px;
+	color:#444444;
+	height:130px;
+	resize:none;
+	border-radius:0px;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+	background-color:#ffffff;
+	border:1px solid #e5e5e5;
+}
+.booking-btn {
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px 34px;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color:#fd4c5c;
+}
+.booking-btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background 0.3s;
+}
+.booking-form .form-group input[type="text"]:focus{
+  border-color: #000000;
+  box-shadow: none !important;
+  outline:none !important;
+}
+
+.mx-auto {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.book-btn.book-btn {
+  color: #e5484d;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #ff3534;
+  border-radius: 6px;
+  /* width: 100%; */
+  padding: 13px 16px;
+  font-size: 15px;
+  transition: background-color .3s;
+  margin-top: 0px;
+}
+.common-banner img{
+  width: 100%;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.no-record {
+  padding: 40px 0;
+  font-size: 18px;
+  color: #888;
+}
+.headDiv {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-family: Segoe UI, sans-serif;
+  transition: transform .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #0000001a;
+}
+.labelName h3 {
+  font-size: 20px !important;
+}
+.col-lg-12.headDiv {
+  display: none;
+}
+.btnControl{
+  display: flex;
+  gap: 0px;
+}
+.btnControl .book-btn.book-btn:first-child {
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #6e6e6e;
+  color: #6e6e6e;
+  border-right: 0;
+}
+.btnControl .book-btn.book-btn:first-child:hover {
+  background-color: #f0f0f0;
+}
+.btnControl .book-btn.book-btn:nth-child(2) {
+  border-radius: 0 6px 6px 0
+}
+.btnControl .book-btn.book-btn:nth-child(2):hover {
+  background-color: #f0f0f0;
+  color: #ff3534;
+}
+.listingComtainer .card-image img {
+  height: 220px !important;
+}
+/* pagination */
+.paginationContent{
+  margin-top: 15px;
+}
+.pagination {
+  gap: 6px;
+}
+
+.page-item .page-link {
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  padding: 12px 20px;
+  transition: 0.3s;
+}
+
+.page-item .page-link:hover {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+.page-item.active .page-link {
+  color: #333;
+  background-color: #3333330f;
+  border-color: #a1a1a1db;
+}
+.pagination>li {
+  display: inline;
+  margin: 3px !important;
+}
+.pagination-sm>li>a, .pagination-sm>li>span {
+  padding: unset;
+  font-size: 14px !important;
+  line-height: 1.5;
+  padding: 0 !important;
+  background-color: transparent !important;
+  border-color: snow !important;
+  float: left;
+}
+.pagination>li {
+  display: inline-flex !important;
+}
+.page-item.disabled .page-link {
+  background-color: #eee;
+  color: #999;
+  cursor: not-allowed;
+  border-color: #ddd;
+}
+.common-banner{
+  position: relative !important;
+}
+.common-context{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+.common-context .active{
+  color: #ffffff;
+}
+.common-banner h1{
+  font-size: 42px;
+}
+.common-banner span {
+  font-size: 16px;
+}
+.hotel-price {
+  color: #333333 !important;
+  margin-bottom: 15px;
+  font-size: 22px !important;
+}
+.hotel-price{
+  margin-bottom: 15px !important;
+}
+.textSmall {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f6f6f;
+}
+.finalPrice {
+  border: 1px solid #0f0f0f;
+  padding: 2px 10px;
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.lastDate{
+  text-decoration:line-through;
+}
+.tourdetail-tabs .tab-btn p{
+  display: flex;
+  margin-bottom: 0;
+}
+.tourdetail-tabs .tab-btn  p img{
+  height: 24px;
+    margin-right: 5px;
+}
+.tour-detail_lists-two label{
+  display: flex;
+  font-weight: 300;
+}
+.tour-detail_lists-two label img{
+  height: 24px;
+  margin-right: 15px;
+  position: relative;
+  top: 6px;
+}
+.tour-detail_lists-two li {
+  display: inline-block !important;
+  position: relative !important;
+  width: 50% !important;
+}
+.hideItem{
+  display: none !important;
+}
+@media (width >= 96rem) {
+  .container {
+    max-width: 1300px !important;
+    width: 1300px !important;
+}
+}
+@media only screen and (max-width: 600px) {
+  .common-banner img{
+    margin-bottom: 0px;
+  }
+  .main-footer {
+    margin-top: 10px;
+}
+.mx-auto {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100% !important
+}
+.mx-auto {
+  justify-content: center;
+  align-items: center;
+  display: block !important;
+}
+.book-btn.book-btn {
+  color: #e5484d;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #ff3534;
+  border-radius: 6px;
+  /* width: 100%; */
+  padding: 10px 16px;
+  font-size: 15px;
+  transition: background-color .3s;
+  margin-top: 0px;
+}
+.commonPage h1{
+  font-size: 22px;
+  margin-top: 30px;
+}
+.headDiv {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 12px #0000001a;
+  padding-bottom: 7px;
+  display: block;
+}
+.card-detail {
+  display: block !important;
+}
+.book-btn.book-btn {
+  width: 100% !important;
+}
+.filterRecord {
+  display: block !important;
+}
+/* .filterRecord .fas.fa-filter{
+  display: none !important;
+} */
+.labelName h3{
+  font-size: 14px !important;
+  padding-top: 4px;
+  position: relative;
+  top: 0;
+}
+.hotel-rating.hotel-rating {
+  color: #444;
+  margin-bottom: 0;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  right: 32px;
+  left: auto;
+}
+.booking-form.booking-form h2 {
+  text-align: center;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 22px;
+  border-radius: 10px 10px 0 0 !important;
+}
+.crossIcon.crossIcon {
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 100px;
+  height: 25px;
+  padding: 4px;
+  position: absolute;
+  top: 23px;
+  right: 20px;
+}
+.common-banner h1 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.common-banner span {
+  font-size: 10px;
+}
+.page-item .page-link {
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 6px 12px;
+  transition: all .3s;
+}
+.pagination {
+  margin: 0px 0;
+}
+.tour-detail_lists-two li {
+  width: 100% !important;
+  display: inline-block !important;
+  position: relative !important;
+}
+.tourdetail-tabs .tab-btns {
+  gap: 5px !important;
+}
+.tourdetail-tabs .tab-btns .tab-btn {
+  text-align: center;
+  width: 20% !important;
+  padding: 16px 12px !important;
+  text-align: center;
+  display: ruby !important;
+  margin-right: 0 !important;
+}
+.tabText{
+  display: none;
+}
+.filterShow.filterShow {
+  position: fixed !important;
+  top: 200px;
+  overflow-y: scroll;
+}
+button.book-btn.desk-filter {
+  display: none;
+}
+.filterShow.filterShow {
+  border-radius: 10px 10px 0 0 !important;
+}
+}

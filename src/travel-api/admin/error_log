@@ -1,0 +1,25 @@
+[09-Dec-2025 06:29:14 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'trivaletripo9283'@'localhost' (using password: YES) in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/property_listing.php on line 23
+[09-Dec-2025 06:54:12 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40
+[11-Dec-2025 17:34:31 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:35:59 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:36:08 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:36:24 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 17:37:03 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/user_register.php on line 44
+[11-Dec-2025 23:39:15 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40
+[11-Dec-2025 23:40:42 Asia/Kolkata] PHP Notice:  Undefined index: advanture_type in /home/bsidrill/public_html/traveltripo.com/travel-api/admin/add-advanture.php on line 40
+[19-Jan-2026 16:13:19 UTC] PHP Warning:  move_uploaded_file(uploads/rishikesh-package1.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:13:19 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3tSTIx' to 'uploads/rishikesh-package1.jpg' in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:41:49 UTC] PHP Warning:  move_uploaded_file(uploads/rishikesh.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:41:49 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpIMiHlg' to 'uploads/rishikesh.jpg' in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:45:48 UTC] PHP Warning:  move_uploaded_file(uploads/tekking3.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:45:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpbQVlRV' to 'uploads/tekking3.jpg' in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:47:48 UTC] PHP Warning:  Undefined array key "advanture_type" in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 40
+[19-Jan-2026 16:47:48 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 40
+[19-Jan-2026 16:47:48 UTC] PHP Warning:  move_uploaded_file(uploads/tekking3.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 69
+[19-Jan-2026 16:47:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpjAX5TO' to 'uploads/tekking3.jpg' in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 69
+[19-Jan-2026 16:54:56 UTC] PHP Warning:  move_uploaded_file(uploads/503340052.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 16:54:56 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6mueIP' to 'uploads/503340052.jpg' in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 17:20:18 UTC] PHP Warning:  move_uploaded_file(uploads/503340052.jpg): Failed to open stream: No such file or directory in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 17:20:18 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3RI7M3' to 'uploads/503340052.jpg' in /home/traveltr/public_html/travel-api/admin/add-package.php on line 71
+[19-Jan-2026 17:31:01 UTC] PHP Warning:  move_uploaded_file(/1768843861_Black and Gold Illustrated Happy New Year 2026 Instagram Post.png): Failed to open stream: Permission denied in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 77
+[19-Jan-2026 17:31:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2xQUYD' to '/1768843861_Black and Gold Illustrated Happy New Year 2026 Instagram Post.png' in /home/traveltr/public_html/travel-api/admin/add-advanture.php on line 77

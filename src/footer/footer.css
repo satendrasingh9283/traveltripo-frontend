@@ -1,0 +1,136 @@
+.slider-mask {
+    width: 100%;
+}
+.main-footer {
+	background: #222222;
+	padding: 40px;
+
+}
+
+.inner-footer h4 {
+    color: #fff;
+    text-transform: capitalize;
+    border-bottom: 1px solid #3b3b3b;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inner-footer ul {
+	color: #949494;
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+.inner-footer ul li {
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.left-space {
+	padding-left: 15px !important;
+	padding-right: 15px;
+}
+
+.inner-footer ul li img {
+    /* opacity: .5; */
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 0;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+h1.logo {
+    color: #ffffff;
+    font-size: 26px;
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+ 
+}
+.pText{
+    padding-right: 70px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+.inner-footer ul li a {
+    color: #A8A8A8;
+    font-size: 14px;
+    text-decoration: none;
+}
+.copy-right {
+	background-color: #1B1B1B;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	color: #797979;
+}
+.footer-links ul {
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+}
+.footer-links ul li {
+    float: left;
+}
+.footer-links ul li a {
+    color: #a3a3a3;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-media   li a {
+ 
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    width: 0px;
+    height: 25px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+	margin-bottom: 5px;
+    background-color: #2d2d2d;
+    /* padding: 20px; */
+    width: 35px;
+    height: 35px;
+}
+.social-media.left-space {
+    padding-left: 70px !important;
+}
+.text-left p {
+    margin-bottom: 0;
+}
+
+.footer-top-bg{
+    display: none;
+}
+@media (max-width: 768px) {
+.social-media.left-space {
+    padding-left: 7px !important;
+  }
+  .footer-links ul {
+    float: left;
+  }
+  .pText {
+    padding-right: 0;
+}
+}

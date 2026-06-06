@@ -1,0 +1,273 @@
+.common-banner{
+  padding: 0 !important;
+}
+.msg-icon{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.msg-icon h1{
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #000000;
+  font-family: system-ui;
+}
+.msg-icon .img{
+  display: inline-block;
+  height: 90px;
+}
+.booking-info  {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.booking-info  th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+  background-color: #ebebeb;
+  color: #181818;
+}
+.card-body{
+  position: relative;
+}
+.booking-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.htImg{
+  position: absolute;
+  top: 20px;
+  height: 100px;
+  border-radius: 10px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 4px #0000001a;
+}
+.hotelId{
+  color: #000000;
+  font-size: 20px;
+}
+.idName{
+  color: #000000;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+} */
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.id {
+  color: #989191;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.hotel-name {
+  color: #333;
+  padding-left: 150px;
+  margin: 0px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.address {
+  padding-left: 150px;
+  margin: 0;
+  text-transform: capitalize;
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+.actions {
+  gap: 5px;
+  padding-left: 150px;
+  display: grid;
+  position: absolute;
+  right: 0;
+  top: 13px;
+}
+.days{
+  text-transform: capitalize;
+  color: #666;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0 10px;
+  padding-left: 150px;
+  font-size: 14px;
+  margin-top: 0;
+}
+.days span{
+  background-color: #ebebeb;
+  padding: 3px 12px;
+  border-radius: 100px;
+  font-size: 12px;
+
+}
+.call-btn{
+  background-color: transparent !important;
+  padding: 0;
+}
+.call-btn img{
+  height: 48px !important;
+}
+.direction-btn{
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+.direction-btn img{
+  height: 48px !important;
+} 
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.call-btn {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.direction-btn {
+  background-color: #3c763d;
+  color: #fff;
+}
+.mx-auto {
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+}
+.badge.bg-warning {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e5484d;
+  border-radius: 5px;
+  padding: 14px 33px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+}
+.hotel-name {
+  color: #333;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 0;
+  font-size: 22px;
+  margin-top: 20px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+.actions:hover .btn {
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+.msg-icon {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.hotel-name {
+  color: #333;
+  text-align: left;
+  margin: 0;
+  font-size: 22px;
+  margin-top: 20px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+.msg-icon .img {
+  height: 64px;
+  display: inline-block;
+}
+.msg-icon h1 {
+  color: #000000;
+  margin-bottom: 5px;
+  font-family: system-ui;
+  font-size: 18px;
+}
+.badge.bg-warning {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e5484d;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  position: static;
+  top: 181px;
+  left: -52px;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.hotelId {
+  font-size: 16px;
+}
+.idName {
+  margin-left: 0;
+  font-size: 16px;
+}
+.htImg {
+  border-radius: 10px;
+  height: 65px;
+  position: absolute;
+  top: 20px;
+}
+.hotel-name {
+  padding-left: 85px;
+  font-size: 16px !important;
+}
+.address{
+  padding-left: 85px;
+  font-size: 12px !important;
+  margin-bottom: 0;
+}
+.days{
+  padding-left: 85px;
+  font-size: 12px !important;
+  margin-top: 5px;
+}
+.actions {
+  gap: 5px;
+  padding-left: 150px;
+  display: grid;
+  position: absolute;
+  top: 5px;
+  right: -13px;
+}
+.call-btn img, .direction-btn img {
+  height: 35px !important;
+}
+}
